@@ -9,7 +9,7 @@ export const NUSAWORK_FEEDBACK_RANGE = process.env.NUSAWORK_FEEDBACK_RANGE || ''
 export const NUSAWORK_FEEDBACK_APP_NAME =
   process.env.NUSAWORK_FEEDBACK_APP_NAME || 'nusawork'
 export const NUSAWORK_FEEDBACK_NEW_STATUS =
-  process.env.NUSAWORK_FEEDBACK_NEW_STATUS || 'new'
+  process.env.NUSAWORK_FEEDBACK_NEW_STATUS || ''
 export const NUSAWORK_FEEDBACK_METRIC_NAME =
   process.env.NUSAWORK_FEEDBACK_METRIC_NAME || 'feedback'
 
@@ -20,7 +20,7 @@ export const NUSAPROSPECT_FEEDBACK_RANGE =
 export const NUSAPROSPECT_FEEDBACK_APP_NAME =
   process.env.NUSAPROSPECT_FEEDBACK_APP_NAME || 'nusaprospect'
 export const NUSAPROSPECT_FEEDBACK_NEW_STATUS =
-  process.env.NUSAPROSPECT_FEEDBACK_NEW_STATUS || 'new'
+  process.env.NUSAPROSPECT_FEEDBACK_NEW_STATUS || ''
 export const NUSAPROSPECT_FEEDBACK_METRIC_NAME =
   process.env.NUSAPROSPECT_FEEDBACK_METRIC_NAME || 'feedback'
 
@@ -31,15 +31,14 @@ export const MARKETING_FEEDBACK_RANGE =
 export const MARKETING_FEEDBACK_APP_NAME =
   process.env.MARKETING_FEEDBACK_APP_NAME || 'marketing'
 export const MARKETING_FEEDBACK_NEW_STATUS =
-  process.env.MARKETING_FEEDBACK_NEW_STATUS || 'new'
+  process.env.MARKETING_FEEDBACK_NEW_STATUS || ''
 export const MARKETING_FEEDBACK_METRIC_NAME =
   process.env.MARKETING_FEEDBACK_METRIC_NAME || 'feedback'
 
 export const HR_FEEDBACK_DOC_ID = process.env.HR_FEEDBACK_DOC_ID || ''
 export const HR_FEEDBACK_RANGE = process.env.HR_FEEDBACK_RANGE || ''
 export const HR_FEEDBACK_APP_NAME = process.env.HR_FEEDBACK_APP_NAME || 'hr'
-export const HR_FEEDBACK_NEW_STATUS =
-  process.env.HR_FEEDBACK_NEW_STATUS || 'new'
+export const HR_FEEDBACK_NEW_STATUS = process.env.HR_FEEDBACK_NEW_STATUS || ''
 export const HR_FEEDBACK_METRIC_NAME =
   process.env.HR_FEEDBACK_METRIC_NAME || 'feedback'
 

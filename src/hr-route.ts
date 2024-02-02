@@ -20,7 +20,7 @@ export default async (fastify: FastifyInstance) => {
       })
       for (const [submitTime, description, status] of rangeValues.data
         .values as string[][]) {
-        if (status !== HR_FEEDBACK_NEW_STATUS) {
+        if (status !== HR_FEEDBACK_NEW_STATUS && status !== undefined) {
           continue
         }
         const suggestion =

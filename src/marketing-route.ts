@@ -26,7 +26,7 @@ export default async (fastify: FastifyInstance) => {
         _photo,
         status,
       ] of rangeValues.data.values as string[][]) {
-        if (status !== MARKETING_FEEDBACK_NEW_STATUS) {
+        if (status !== MARKETING_FEEDBACK_NEW_STATUS && status !== undefined) {
           continue
         }
         const issue =

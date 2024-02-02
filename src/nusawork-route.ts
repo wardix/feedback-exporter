@@ -26,7 +26,7 @@ export default async (fastify: FastifyInstance) => {
         description,
         status,
       ] of rangeValues.data.values as string[][]) {
-        if (status !== NUSAWORK_FEEDBACK_NEW_STATUS) {
+        if (status !== NUSAWORK_FEEDBACK_NEW_STATUS && status !== undefined) {
           continue
         }
         const [_company, shortUser] = user.includes('/')
